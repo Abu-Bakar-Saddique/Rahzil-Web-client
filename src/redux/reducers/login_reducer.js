@@ -15,7 +15,7 @@ const login_reducer = (state={login:false},action) => {
             email:null,
             userid:null,
             token:null
-        }
+        } 
     case 'editProfile':
         return{
             ...state,
