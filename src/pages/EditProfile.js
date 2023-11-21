@@ -51,6 +51,10 @@ const EditProfile = () => {
             console.log(error)
         }
     }
+
+
+
+    
     return (
         <div>
             <form className='place-form' onSubmit={onSubmitHandler}>
