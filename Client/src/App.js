@@ -40,8 +40,8 @@ function App() {
       <Route path="/trip" element={<TripsPage/>}/>
       <Route path='/:uid/history' element={<HistoryPage/>} />
       <Route path='/:uid/wishlist' element={<WishlistPage/>} />
-      <Route path="/:pid/rating" element={<Ratings/>}/>
-      <Route path="/toprated" element={<TopRated/>}/>
+      {/* <Route path="/:pid/rating" element={<Ratings/>}/>
+      <Route path="/toprated" element={<TopRated/>}/> */}
       <Route path="/edit" element={<EditProfile/>}/>
       <Route path="*" element={<ErrorPage/>}/>
     </Routes>)
